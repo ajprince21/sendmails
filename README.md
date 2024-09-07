@@ -22,8 +22,8 @@ This script automates the process of sending job application emails to potential
 1. **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/ajprince21/sendmails
+    cd sendmails
     ```
 
 2. **Install the required packages**:
@@ -55,10 +55,9 @@ This script automates the process of sending job application emails to potential
 5. **Running the Script**:
 
     ```bash
-    node <script-name>.js
+    node sendEmails.js
     ```
 
-   Replace `<script-name>` with the filename of your script file.
 
 ## Email Content
 
