@@ -11,13 +11,14 @@ const transporter = nodemailer.createTransport({
 });
 
 // Email to test Mail
-const emailList = Array(1).fill("padmadhar1998@gmail.com");
-const email_list = getHRList(1);
+// const emailList = Array(1).fill("ajprince0607@gmail.com");
+const email_list = getHRList(2);
 
 function sendEmails() {
-  emailList.forEach((email) => {
+  email_list.forEach((item) => {
+    const { email } = item;
     const mailOptions = {
-      from: "ajprince0607@gmail.com",
+      from: '"Padmadhar Tiwari" <' + process.env.USER_EMAIL + ">",
       to: email,
       subject: "Application for Software Engineer Position",
       text: `Dear Hiring Team,
