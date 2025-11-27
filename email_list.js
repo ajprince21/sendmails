@@ -15857,12 +15857,23 @@ const email_list_4 = [
     company_name: "Netcore Cloud",
   },
 ];
+const email_list_5 = [
+   {
+    SNo: 1001,
+    firstName: "Ajay Raj",
+    lastName: "Tiwari",
+    email: "ajprince0607@gmail.com",
+    designation: "Head HR",
+    company_name: "Gram Tarang Employability Training Services",
+  },
+]
 
 function getHRList(level = 1) {
   if (level == 1) return email_list_1;
   if (level == 2) return email_list_2;
   if (level == 3) return email_list_3;
   if (level == 4) return email_list_4;
+  if (level == 5) return email_list_5;
 
   return emailList;
 }
