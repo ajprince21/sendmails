@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 
 // Email to test Mail
 // const emailList = Array(1).fill("ajprince0607@gmail.com");
-const email_list = getHRList(5);
+const email_list = getHRList(1);
 
 function sendEmails() {
   email_list.forEach((item) => {
